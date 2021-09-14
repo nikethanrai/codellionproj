@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --primary-color:#FFA62B;
+  --secondary-color:#00A0C1;
+  --desc-color:#a7a7a7;
+  --bg-secondary:var(--secondary-color);
+ 
+
+}
+
+.App{
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  background-image: url('./images/Picture2.png');
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.418);
+
+}
+.nav-title{
+  
+  font-weight: 700;
+  font-size: 24px;}
+ 
+.me-auto{
+  margin: auto;
+}
+.container{
+  margin-left: 15%;
+}
+
+.page-section{
+ 
+  height: 100vh;
+  align-items: center;
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-bottom: 15rem;
+ 
+  
+
+  
+}
+#main-title{
+  display: block;
+  font-weight: 800;
+  font-size: 58px;
+  padding-top:8rem;
+  padding-bottom: 1rem;
+  
+}
+.title-desc{
+  padding-bottom: 1rem;
+  color: var(--desc-color);
+}
+.main-btns{
+  display: inline-block;
+  align-items: center;
+  border-radius:37px;
+  padding: .6rem 1.5rem;
+  margin-right: 1rem;
+  
+ 
+}
+.prim{
+  background-color:var(--primary-color)  ;
+  color: white;
+  font-weight: 600;
+}
+.sec{
+  background-color:  white;
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+.fas{
+  
+  font-size: 41px;
+  padding-bottom: 1rem;
+}
+.card{
+  display: inline-flex;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  height: 210px;
+  padding: 35px 40px;
+  transition: .3s;
+}
+.card:hover{
+  background-color: #00A0C1;
+  color: white
+ 
+}
+.card-title{
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.card-text{
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--desc-color);
+}
+h2{
+  
+}
+.section-title{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+.section-desc{
+  font-size: 14px;
+  text-align: center;
+  color: var(--desc-color);
+}
+.practice-card{
+  padding: 1rem;
+  
+}
+.practice-card-title{
+  font-size: 16px;
+}
+.practice-card-desc{
+  font-size: 14px;
+  color: var(--desc-color);
+}
