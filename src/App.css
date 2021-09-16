@@ -111,10 +111,9 @@ header{
   font-weight: 500;
   font-size: 14px;
   color: var(--desc-color);
+
 }
-h2{
-  
-}
+
 .section-title{
   font-weight: 700;
   font-size: 40px;
@@ -135,4 +134,9 @@ h2{
 .practice-card-desc{
   font-size: 14px;
   color: var(--desc-color);
+}
+.img1{
+  background-image: url('./images/Picture3.png'); 
+  width: auto;
+
 }

@@ -1,8 +1,7 @@
 
-import { Card, Button, Navbar, Container, Nav } from 'react-bootstrap';
+import { ListGroup,ListGroupItem,Card, Button, Navbar, Container, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import bgimg from './images/Picture2.png'
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
           </Container>
         </Navbar>
 
-        <section className='page-section home-section ' styles={{ backgroundImage: `url(${bgimg})` }}  >
+        <section className='page-section home-section '  >
 
           <h1 id='main-title'>EMPOWER YOUR <br />BUISNESS </h1>
           <p className="title-desc">We know how large objects will act <br />but things on a small scale.</p>
@@ -41,12 +40,11 @@ function App() {
                 </Card.Text>
 
               </Card.Body>
+
             </Card>
             <Card className="shadow p-3 mb-5 rounded" style={{ width: '18rem' }}>
               <Card.Body>
                 <i class="fas fa-building"></i>
-
-
                 <Card.Title>National top 50 firms</Card.Title>
                 <Card.Text>
                   Just type what's on your mind
@@ -79,6 +77,7 @@ function App() {
           the two major realms of Classical physics: Newtonian mechanics </p>
 
         <div>
+        
           <Card className='practice-card' style={{ width: '210px' }}>
             <Card.Body>
               <Card.Title className='practice-card-title'>A single source
@@ -91,7 +90,9 @@ function App() {
               </Card.Text>
 
             </Card.Body>
+
           </Card>
+         
           <Card className='practice-card' style={{ width: '210px' }}>
             <Card.Body>
 
@@ -99,35 +100,35 @@ function App() {
               <Card.Title className='practice-card-title'>Fastest way to
                 organize</Card.Title>
               <Card.Text className='practice-card-desc'>
-              “Quantum mechanics” 
-is the description of the 
-behaviour of matter
+                “Quantum mechanics”
+                is the description of the
+                behaviour of matter
               </Card.Text>
 
             </Card.Body>
           </Card>
           <Card className='practice-card' style={{ width: '210px' }}>
             <Card.Body>
-              <Card.Title className='practice-card-title'>Fastest way to 
-take action
+              <Card.Title className='practice-card-title'>Fastest way to
+                take action
               </Card.Title>
               <Card.Text className='practice-card-desc'>
-              They describe a 
-universe consisting of 
-bodies moving
+                They describe a
+                universe consisting of
+                bodies moving
               </Card.Text>
 
             </Card.Body>
           </Card>
           <Card className='practice-card' style={{ width: '210px' }}>
             <Card.Body>
-              <Card.Title className='practice-card-title'>Work better 
-together
+              <Card.Title className='practice-card-title'>Work better
+                together
               </Card.Title>
               <Card.Text className='practice-card-desc'>
-              They finally obtained 
-a consistent description 
-of the behaviour 
+                They finally obtained
+                a consistent description
+                of the behaviour
               </Card.Text>
 
             </Card.Body>
